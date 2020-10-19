@@ -21,7 +21,7 @@ public class Main {
         people.add(hansNielsen);
         people.add(nielsHansen);
         people.add(ibBoesen);
-
+        System.out.println("ID     Name            Email");
         for (Person p: people) {
             System.out.println(p.toString());
         }
