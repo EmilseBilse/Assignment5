@@ -27,7 +27,7 @@ public class Teacher extends Person {
     }
 
     public void addSubject(String subject){
-
+        subjects.add(subject);
     }
 
     public void setSalary(double salary) {
